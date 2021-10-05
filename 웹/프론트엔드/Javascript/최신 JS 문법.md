@@ -34,7 +34,10 @@ arr.forEach(function(element){console.log(element)}
 map은 배열의 각 요소에 대해서 특정 작업을 수행한 결과요소들을 가지는 새로운 배열을 return한다.
 ```
 const arr = [1,2,3]
-const result = arr.map((element)=>{element * 2})
+const result = arr.map(element => element * 2)
+
+const arr = [1,2,3]
+const result = arr.map((element)=>{return element * 2})
 
 const arr = [1,2,3]
 const result = arr.map(function(element){return element * 2}
@@ -43,7 +46,10 @@ const result = arr.map(function(element){return element * 2}
 filter는 배열의 각 요소에 대해서 특정조건에 대해 true가 return되는 요소들만 가지는 새로운 배열을 만들어서 return한다.
 ```
 const arr = [1,2,3]
-const result = arr.filter((element)=>{element > 2})
+const result = arr.filter(element => element > 2)
+
+const arr = [1,2,3]
+const result = arr.filter((element)=>{return element > 2})
 
 const arr = [1,2,3]
 const result = arr.filter(function(element){return element > 2})
