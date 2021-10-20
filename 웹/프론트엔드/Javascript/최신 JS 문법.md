@@ -57,4 +57,4 @@ const result = arr.filter(function(element){return element > 2})
 
 <br></br>
 ## 참고 문서
-1. https://wormwlrm.github.io/2018/10/03/What-is-the-difference-between-javascript-and-ecmascript.html
+1. [JavaScript와 ECMAScript는 무슨 차이점이 있을까?](https://wormwlrm.github.io/2018/10/03/What-is-the-difference-between-javascript-and-ecmascript.html)
